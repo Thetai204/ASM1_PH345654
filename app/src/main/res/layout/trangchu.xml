@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="QUẢN LÝ NHÂN SỰ"
+            android:textColor="#22C628"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FPOLY SOFTWARE COMPANY "
+            android:textColor="#A50707"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:gravity="center"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <Button
+         android:id="@+id/btn_pban"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/home"
+        android:background="#0A000000"
+        android:textColor="#B81A1A"
+        android:text="Phòng ban"
+        />
+    <Button
+        android:id="@+id/btnnv"
+        android:layout_marginLeft="20dp"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:background="#0A000000"
+        android:textColor="#0626D5"
+        android:drawableTop="@drawable/nhanvien"
+        android:text="Nhân viên"
+        />
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/exit"
+        android:background="#0A000000"
+        android:textColor="@color/black"
+        android:text="Thoát"
+        />
+</LinearLayout>
